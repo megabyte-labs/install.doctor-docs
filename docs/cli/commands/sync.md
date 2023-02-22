@@ -8,7 +8,7 @@ sidebar_label: sync
 
 # Capacitor CLI - cap sync
 
-This command runs [`copy`](/docs/cli/commands/copy) and then [`update`](/docs/cli/commands/update).
+This command runs [`copy`](/docs/v3/cli/copy) and then [`update`](/docs/v3/cli/update).
 
 ```bash
 npx cap sync [options] [<platform>]
@@ -21,7 +21,6 @@ npx cap sync [options] [<platform>]
 <strong>Options:</strong>
 
 - `--deployment`: Podfile.lock won't be deleted and pod install will use `--deployment` option.
-- `--inline`: After syncing, all JS source maps will be inlined allowing for debugging an Android Web View in Chromium based browsers.
 
 ## Hooks
 

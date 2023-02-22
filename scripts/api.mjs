@@ -7,7 +7,7 @@ const API_DIR = new URL('../docs/apis/', import.meta.url);
 // replace with latest once it's relased
 const tag = 'latest';
 
-const pluginApis = [
+/*const pluginApis = [
   'action-sheet',
   'app',
   'app-launcher',
@@ -32,7 +32,8 @@ const pluginApis = [
   'status-bar',
   'text-zoom',
   'toast',
-];
+];*/
+const pluginApis = []
 
 async function buildPluginApiDocs(pluginId) {
   const [readme, pkgJson] = await Promise.all([getReadme(pluginId), getPkgJsonData(pluginId)]);

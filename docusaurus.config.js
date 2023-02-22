@@ -1,14 +1,15 @@
 const path = require('path');
 const prismic = require('@prismicio/client');
 const fetch = require('node-fetch');
+const fs = require('fs')
 
 const BASE_URL = '/docs';
 
 module.exports = {
-  title: 'Capacitor Documentation',
+  title: 'Install Doctor Documentation',
   tagline:
-    'Capacitor is a cross-platform native runtime that makes it easy to build modern web apps that run natively on iOS, Android, and the Web.',
-  url: 'https://capacitorjs.com',
+    'A multi-OS provisioning system designed to setup workstations and servers',
+  url: 'https://install.doctor',
   baseUrl: `${BASE_URL}/`,
   i18n: {
     defaultLocale: 'en',
@@ -20,8 +21,8 @@ module.exports = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/meta/favicon.png',
-  organizationName: 'ionic-team',
-  projectName: 'capacitor-docs',
+  organizationName: 'megabyte-labs',
+  projectName: 'install.doctor-site',
   themeConfig: {
     colorMode: {
       defaultMode: 'light',
@@ -29,10 +30,10 @@ module.exports = {
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: 'Site Logo',
-        src: `/logos/capacitor-text-docs-light.svg`,
-        srcDark: `/logos/capacitor-text-docs-dark.svg`,
-        href: 'https://capacitorjs.com',
+        alt: 'Install Doctor Logo',
+        src: `/logos/install-doctor-text-docs-light.svg`,
+        srcDark: `/logos/install-doctor-text-docs-dark.svg`,
+        href: 'https://install.doctor',
         target: '_self',
         width: 200,
         height: 24,
@@ -46,8 +47,8 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'plugins',
-          label: 'Plugins',
+          docId: 'software',
+          label: 'Software',
           position: 'left',
         },
         {
@@ -57,68 +58,27 @@ module.exports = {
           position: 'left',
         },
         {
-          type: 'docsVersionDropdown',
-          position: 'right',
-          // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-          dropdownActiveClassDisabled: true,
-        },
-        {
           type: 'search',
           position: 'right',
-        },
-        {
-          label: 'Community',
-          position: 'right',
-          items: [
-            {
-              href: 'https://ionicframework.com/community',
-              label: 'Community Hub',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://forum.ionicframework.com/',
-              label: 'Forum',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://blog.ionicframework.com/',
-              label: 'Blog',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://twitter.com/capacitorjs',
-              label: 'Twitter',
-              target: '_blank',
-              rel: null,
-            },
-          ],
-          className: 'navbar__link--community',
         },
         {
           label: 'Support',
           position: 'right',
           items: [
             {
-              href: 'https://ionicframework.com/support',
-              label: 'Help Center',
-              target: '_blank',
-              rel: null,
+              href: 'https://install.doctor/community',
+              label: 'Community'
             },
             {
-              href: 'https://ionic.zendesk.com/',
-              label: 'Customer Support',
-              target: '_blank',
-              rel: null,
+              href: 'https://install.doctor/enterprise',
+              label: 'Enterprise'
             },
             {
-              href: 'https://ionicframework.com/advisory',
-              label: 'Enterprise Advisory',
+              href: 'https://forum.megabyte.space/c/install-doctor',
+              label: 'Forum',
               target: '_blank',
               rel: null,
-            },
+            }
           ],
           className: 'navbar__link--support',
         },
@@ -130,9 +90,9 @@ module.exports = {
           type: 'iconLink',
           position: 'right',
           icon: {
-            alt: 'twitter logo',
+            alt: 'Twitter logo',
             src: `/logos/twitter.svg`,
-            href: 'https://twitter.com/capacitorjs',
+            href: 'https://twitter.com/installdoc',
             target: '_blank',
           },
         },
@@ -140,9 +100,9 @@ module.exports = {
           type: 'iconLink',
           position: 'right',
           icon: {
-            alt: 'github logo',
+            alt: 'GitHub logo',
             src: `/logos/github.svg`,
-            href: 'https://github.com/ionic-team/capacitor',
+            href: 'https://github.com/megabyte-labs/install.doctor',
             target: '_blank',
           },
         },
@@ -150,29 +110,16 @@ module.exports = {
           type: 'iconLink',
           position: 'right',
           icon: {
-            alt: 'discord logo',
+            alt: 'Discord logo',
             src: `/logos/discord.svg`,
-            href: 'https://ionic.link/discord',
+            href: 'https://discord.com/channels/1077138419953713222/1077138479928049734',
             target: '_blank',
           },
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-          dropdownItemsAfter: [
-            {
-              to: 'https://capacitorjs.jp/',
-              label: '日本語',
-              target: '_blank',
-              rel: null,
-            },
-          ],
-          className: 'icon-link language navbar__item',
-        },
+        }
       ],
     },
     tagManager: {
-      trackingID: 'GTM-TKMGCBC',
+      trackingID: 'GTM-PJQ4263',
     },
     prism: {
       theme: { plain: {}, styles: [] },
@@ -180,9 +127,9 @@ module.exports = {
       additionalLanguages: ['shell-session', 'http'],
     },
     algolia: {
-      appId: '3IVALO5OU4',
-      apiKey: '5fdbbcbd186f2a1265494810dd0bf09c',
-      indexName: 'capacitorjs',
+      appId: 'S9NORH1KTE',
+      apiKey: 'e14004b94a1f75b3bb71fc63f070466c',
+      indexName: 'installdoc',
       contextualSearch: true,
     },
   },
@@ -206,24 +153,24 @@ module.exports = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: ({ versionDocsDirPath, docPath, locale }) => {
           if (locale != 'en') {
-            return 'https://crowdin.com/project/capacitor-docs';
+            return 'https://crowdin.com/project/install-doctor-docs';
           }
           if ((match = docPath.match(/apis\/(.*)\.md/)) != null) {
             if (match[1] === 'cookies' || match[1] === 'http') {
-              return `https://github.com/ionic-team/capacitor-docs/edit/main/docs/apis/${match[1]}.md`;
+              return `https://github.com/megabyte-labs/install.doctor-site/edit/main/docs/apis/${match[1]}.md`;
             }
-            return `https://github.com/ionic-team/capacitor-plugins/edit/main/${match[1]}/README.md`;
+            return `https://github.com/megabyte-labs/install.doctor-site/edit/main/${match[1]}/README.md`;
           }
           if ((match = docPath.match(/cli\/commands\/(.*)\.md/)) != null) {
-            return `https://github.com/ionic-team/capacitor-docs/edit/main/docs/cli/commands/${match[1].replace(
+            return `https://github.com/megabyte-labs/install.doctor-site/edit/main/docs/cli/commands/${match[1].replace(
               '-',
               '/'
             )}.md`;
           }
           if ((match = docPath.match(/native\/(.*)\.md/)) != null) {
-            return `https://github.com/ionic-team/ionic-native/edit/master/src/@awesome-cordova-plugins/plugins/${match[1]}/index.ts`;
+            return `https://github.com/megabyte-labs/install.doctor-site/edit/master/src/@awesome-cordova-plugins/plugins/${match[1]}/index.ts`;
           }
-          return `https://github.com/ionic-team/capacitor-docs/edit/main/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/megabyte-labs/install.doctor-site/edit/main/${versionDocsDirPath}/${docPath}`;
         },
         exclude: ['README.md'],
         lastVersion: 'current',
@@ -249,7 +196,14 @@ module.exports = {
             fetch,
           });
 
-          return await client.getByType('docs_ad');
+          if (fs.existsSync('./local/docsad.prismic.json')) {
+            const prismic = fs.readFileSync('./local/docsad.prismic.json')
+            return JSON.parse(prismic.toString())
+          } else {
+            const docsAd = await client.getByType('docs_ad')
+            fs.writeFileSync('./local/docsad.prismic.json', JSON.stringify(docsAd))
+            return docsAd
+          }
         },
         async contentLoaded({ content, actions: { setGlobalData, addRoute } }) {
           return setGlobalData({ prismicAds: content.results });
