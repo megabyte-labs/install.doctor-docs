@@ -2,7 +2,7 @@
 title: Install Doctor Documentation
 description: Overview of Install Doctor, the multi-OS provisioning framework that can setup workstations and servers
 slug: /
-sidebar_label: Getting Started
+sidebar_label: Overview
 hide_table_of_contents: true
 ---
 ## What is Install Doctor?
