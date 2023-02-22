@@ -7,7 +7,7 @@ hide_table_of_contents: true
 ---
 ## What is Install Doctor?
 
-![Free, Simple, Easy Software Installations](/assets/img/og.png)
+![Free, Simple, Easy Software Installations](https://install.doctor/assets/img/og.png)
 
 Install Doctor is a set of scripts, software, and configurations that can setup your PCs quickly. It allows you to define software and plugins in YAML / JSON in such a way that as little work as possible is involved when adding a new package to your stack. It is a [Chezmoi](https://www.chezmoi.io/) based project so all the features of Chezmoi are also included.
 
