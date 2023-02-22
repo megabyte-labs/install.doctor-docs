@@ -23,7 +23,7 @@ Another feature of Install Doctor is that, by default, it includes a highly-opti
 * Configuring Bash / ZSH terminal sessions to use feature-packed setups like [Oh-My-ZSH](https://ohmyz.sh/)
 * Optimizing the default functionality of many terminal CLIs to use settings that are recommended by their developers
 * Housing configurations for applications that are better than the default application settings
-* Ensuring that the home directory is clear of random folders by adhereing to XDG spec
+* Ensuring that the home directory is clear of random folders by adhereing to [XDG spec](https://wiki.archlinux.org/title/XDG_Base_Directory)
 
 ## Automated Feature Integration
 
