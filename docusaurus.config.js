@@ -22,7 +22,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/meta/favicon.png',
   organizationName: 'megabyte-labs',
-  projectName: 'install.doctor-site',
+  projectName: 'install.doctor-docs',
   themeConfig: {
     colorMode: {
       defaultMode: 'light',
@@ -157,20 +157,20 @@ module.exports = {
           }
           if ((match = docPath.match(/apis\/(.*)\.md/)) != null) {
             if (match[1] === 'cookies' || match[1] === 'http') {
-              return `https://github.com/megabyte-labs/install.doctor-site/edit/main/docs/apis/${match[1]}.md`;
+              return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/docs/apis/${match[1]}.md`;
             }
-            return `https://github.com/megabyte-labs/install.doctor-site/edit/main/${match[1]}/README.md`;
+            return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/${match[1]}/README.md`;
           }
           if ((match = docPath.match(/cli\/commands\/(.*)\.md/)) != null) {
-            return `https://github.com/megabyte-labs/install.doctor-site/edit/main/docs/cli/commands/${match[1].replace(
+            return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/docs/cli/commands/${match[1].replace(
               '-',
               '/'
             )}.md`;
           }
           if ((match = docPath.match(/native\/(.*)\.md/)) != null) {
-            return `https://github.com/megabyte-labs/install.doctor-site/edit/master/src/@awesome-cordova-plugins/plugins/${match[1]}/index.ts`;
+            return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/src/@awesome-cordova-plugins/plugins/${match[1]}/index.ts`;
           }
-          return `https://github.com/megabyte-labs/install.doctor-site/edit/main/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/${versionDocsDirPath}/${docPath}`;
         },
         exclude: ['README.md'],
         lastVersion: 'current',

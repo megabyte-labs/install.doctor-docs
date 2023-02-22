@@ -6,6 +6,7 @@ module.exports = {
       collapsed: false,
       items: [
         'index',
+        'main/getting-started/overview',
         'main/getting-started/requirements',
         'main/getting-started/choosing-os',
         'main/getting-started/secrets',
@@ -56,7 +57,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Contributing',
-      collapsed: false,
+      collapsed: true,
       items: [
         'main/contributing/index',
         'main/contributing/pull-requests',
