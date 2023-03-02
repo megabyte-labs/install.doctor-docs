@@ -8,13 +8,13 @@ hide_table_of_contents: true
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## What is Install Doctor?
-
 <img
   alt="Free, Simple, Easy Software Installations"
   src={require('/img/og.png').default}
   loading="eager"
 />
+
+## What is Install Doctor?
 
 Install Doctor is a set of scripts, software, and configurations that can setup your PCs quickly. It allows you to define software and plugins in YAML / JSON in such a way that as little work as possible is involved when adding a new package to your stack. It is a [Chezmoi](https://www.chezmoi.io/) based project so all the features of Chezmoi are also included.
 

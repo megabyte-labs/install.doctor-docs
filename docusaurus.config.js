@@ -66,18 +66,16 @@ module.exports = {
           position: 'right',
           items: [
             {
-              href: 'https://install.doctor/community',
+              href: '/blog',
+              label: 'Blog'
+            },
+            {
+              href: '/community',
               label: 'Community'
             },
             {
-              href: 'https://install.doctor/enterprise',
+              href: '/enterprise',
               label: 'Enterprise'
-            },
-            {
-              href: 'https://forum.megabyte.space/c/install-doctor',
-              label: 'Forum',
-              target: '_blank',
-              rel: null,
             }
           ],
           className: 'navbar__link--support',
@@ -176,7 +174,7 @@ module.exports = {
         lastVersion: 'current',
         versions: {
           current: {
-            label: 'v4',
+            label: 'v1',
             banner: 'none',
           },
         },
