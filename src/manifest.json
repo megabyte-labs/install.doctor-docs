@@ -1,6 +1,6 @@
 {
-  "name": "Ionic Documentation",
-  "short_name": "Ionic Docs",
+  "name": "Install Doctor Documentation",
+  "short_name": "Install Doctor Docs",
   "start_url": "/docs/",
   "display": "standalone",
   "icons": [

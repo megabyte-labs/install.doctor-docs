@@ -8,7 +8,7 @@ const BASE_URL = '/docs';
 module.exports = {
   title: 'Install Doctor Documentation',
   tagline:
-    'A multi-OS provisioning system designed to setup workstations and servers',
+    'Documentation portal for Install Doctor, a multi-OS provisioning system designed to setup workstations and servers',
   url: 'https://install.doctor',
   baseUrl: `${BASE_URL}/`,
   i18n: {
@@ -48,7 +48,7 @@ module.exports = {
         {
           type: 'doc',
           docId: 'software',
-          label: 'Software',
+          label: 'Features',
           position: 'left',
         },
         {
@@ -66,16 +66,19 @@ module.exports = {
           position: 'right',
           items: [
             {
-              href: '/blog',
-              label: 'Blog'
+              href: 'https://install.doctor/blog',
+              label: 'Blog',
+              target: '_self'
             },
             {
-              href: '/community',
-              label: 'Community'
+              href: 'https://install.doctor/community',
+              label: 'Community',
+              target: '_self'
             },
             {
-              href: '/enterprise',
-              label: 'Enterprise'
+              href: 'https://install.doctor/enterprise',
+              label: 'Enterprise',
+              target: '_self'
             }
           ],
           className: 'navbar__link--support',
@@ -90,7 +93,7 @@ module.exports = {
           icon: {
             alt: 'Twitter logo',
             src: `/logos/twitter.svg`,
-            href: 'https://twitter.com/installdoc',
+            href: 'https://twitter.com/InstallDoc',
             target: '_blank',
           },
         },
@@ -181,7 +184,7 @@ module.exports = {
       },
     ],
     '@docusaurus/plugin-content-pages',
-    '@docusaurus/plugin-debug',
+    process.env.NODE_ENV === 'production' && '@docusaurus/plugin-debug',
     '@docusaurus/plugin-sitemap',
     '@ionic-internal/docusaurus-plugin-tag-manager',
     function (context, options) {
@@ -249,7 +252,7 @@ module.exports = {
         }
       };
     }
-  ],
+  ].filter(Boolean),
   themes: [
     [
       //overriding the standard docusaurus-theme-classic to provide custom schema

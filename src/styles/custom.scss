@@ -177,11 +177,25 @@ iframe {
   margin: 1rem 0 0;
 }
 
-.docSidebarContainer_src-theme-DocPage-styles-module > a > img {
+.page-banner {
+  margin: 0;
+  width: 100%;
+
+  .page-banner-col {
+    padding: 0;
+  }
+}
+
+.main-wrapper > div > aside > a > img {
   position: relative;
     top: 2px;
-    left: -4px;
-    width: 180px;
+  left: -16px;
+  width: 204px;
+  height: 32px;
+  //position: relative;
+    //top: 2px;
+    //left: -4px;
+    //width: 180px;
 }
 
 .navbar__logo > img {
@@ -189,4 +203,18 @@ iframe {
     top: 2px;
     left: 4px;
     width: 180px;
+}
+
+.navbar {
+  border-block: 1px solid rgba(0, 21, 58, 0.06);
+    height: 62px;
+    box-shadow: none;
+}
+
+.dropdown--hoverable svg {
+  display: none;
+}
+
+.navbar-sidebar .menu__list-item svg {
+  display: none;
 }
