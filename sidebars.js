@@ -9,7 +9,6 @@ module.exports = {
         'main/getting-started/overview',
         'main/getting-started/requirements',
         'main/getting-started/choosing-os',
-        'main/getting-started/secrets',
         'main/getting-started/faqs'
       ],
     },
