@@ -10,9 +10,9 @@ Install Doctor is regularly tested on the x86-64 variants of Arch Linux, CentOS,
 ## Arch Linux
 
 <picture>
-  <source src="/screenshots/archlinux.png" type="image/png" />
-  <source src="/screenshots/archlinux.webm" type="image/webm" />
-  <img src="/screenshots/archlinux.png" alt="Archlinux desktop screenshot" loading="eager" />
+  <source src="/docs/screenshots/archlinux.png" type="image/png" />
+  <source src="/docs/screenshots/archlinux.webm" type="image/webm" />
+  <img src="/docs/screenshots/archlinux.png" alt="Archlinux desktop screenshot" loading="eager" />
 </picture>
 
 Arch Linux is a lightweight and highly customizable Linux distribution that follows the KISS (Keep It Simple, Stupid) philosophy. One of the unique aspects of Arch Linux is its rolling-release model, which means that instead of releasing major versions with new features and updates, the operating system is continuously updated with the latest software and patches.
@@ -30,9 +30,9 @@ Overall, Arch Linux is an excellent choice for advanced users who value customiz
 ## CentOS
 
 <picture>
-  <source src="/screenshots/centos.png" type="image/png" />
-  <source src="/screenshots/centos.webm" type="image/webm" />
-  <img src="/screenshots/centos.png" alt="CentOS desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/centos.png" type="image/png" />
+  <source src="/docs/screenshots/centos.webm" type="image/webm" />
+  <img src="/docs/screenshots/centos.png" alt="CentOS desktop screenshot" loading="lazy" />
 </picture>
 
 CentOS is a free and open-source Linux distribution that is based on the source code of Red Hat Enterprise Linux (RHEL). Here are some of the unique aspects of CentOS and why you might want to use it:
@@ -48,9 +48,9 @@ Overall, CentOS is an excellent choice for those who value stability, security, 
 ## Debian
 
 <picture>
-  <source src="/screenshots/debian.png" type="image/png" />
-  <source src="/screenshots/debian.webm" type="image/webm" />
-  <img src="/screenshots/debian.png" alt="Debian desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/debian.png" type="image/png" />
+  <source src="/docs/screenshots/debian.webm" type="image/webm" />
+  <img src="/docs/screenshots/debian.png" alt="Debian desktop screenshot" loading="lazy" />
 </picture>
 
 Debian is a free and open-source Linux distribution that is known for its stability, security, and extensive package library. Here are some of the unique aspects of Debian and why you might want to use it:
@@ -66,9 +66,9 @@ Overall, Debian is an excellent choice for those who value stability, security, 
 ## Fedora
 
 <picture>
-  <source src="/screenshots/fedora.png" type="image/png" />
-  <source src="/screenshots/fedora.webm" type="image/webm" />
-  <img src="/screenshots/fedora.png" alt="Fedora desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/fedora.png" type="image/png" />
+  <source src="/docs/screenshots/fedora.webm" type="image/webm" />
+  <img src="/docs/screenshots/fedora.png" alt="Fedora desktop screenshot" loading="lazy" />
 </picture>
 
 Fedora is a free and open-source Linux distribution that is known for its cutting-edge features and emphasis on innovation. Here are some of the unique aspects of Fedora and why you might want to use it:
@@ -84,9 +84,9 @@ Overall, Fedora is an excellent choice for those who value cutting-edge features
 ## macOS
 
 <picture>
-  <source src="/screenshots/macos.png" type="image/png" />
-  <source src="/screenshots/macos.webm" type="image/webm" />
-  <img src="/screenshots/macos.png" alt="macOS desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/macos.png" type="image/png" />
+  <source src="/docs/screenshots/macos.webm" type="image/webm" />
+  <img src="/docs/screenshots/macos.png" alt="macOS desktop screenshot" loading="lazy" />
 </picture>
 
 macOS is a proprietary operating system developed by Apple for its Macintosh line of computers. Here are some of the unique aspects of macOS and why you might want to use it:
@@ -102,9 +102,9 @@ Overall, macOS is an excellent choice for those who value integration with the A
 ## Qubes
 
 <picture>
-  <source src="/screenshots/qubes.png" type="image/png" />
-  <source src="/screenshots/qubes.webm" type="image/webm" />
-  <img src="/screenshots/qubes.png" alt="Qubes desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/qubes.png" type="image/png" />
+  <source src="/docs/screenshots/qubes.webm" type="image/webm" />
+  <img src="/docs/screenshots/qubes.png" alt="Qubes desktop screenshot" loading="lazy" />
 </picture>
 
 Qubes OS is a free and open-source operating system that is designed to provide strong security and isolation between applications and activities. Here are some of the unique aspects of Qubes OS and why you might want to use it:
@@ -120,9 +120,9 @@ Overall, Qubes OS is an excellent choice for those who value strong security, pr
 ## Ubuntu
 
 <picture>
-  <source src="/screenshots/ubuntu.png" type="image/png" />
-  <source src="/screenshots/ubuntu.webm" type="image/webm" />
-  <img src="/screenshots/ubuntu.png" alt="Ubuntu desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/ubuntu.png" type="image/png" />
+  <source src="/docs/screenshots/ubuntu.webm" type="image/webm" />
+  <img src="/docs/screenshots/ubuntu.png" alt="Ubuntu desktop screenshot" loading="lazy" />
 </picture>
 
 Ubuntu is a popular and user-friendly Linux distribution that is known for its ease of use, extensive software library, and community support. Here are some of the unique aspects of Ubuntu and why you might want to use it:
@@ -138,9 +138,9 @@ Overall, Ubuntu is an excellent choice for beginners and advanced users who valu
 ## Windows
 
 <picture>
-  <source src="/screenshots/windows.png" type="image/png" />
-  <source src="/screenshots/windows.webm" type="image/webm" />
-  <img src="/screenshots/windows.png" alt="Windows 11 desktop screenshot" loading="lazy" />
+  <source src="/docs/screenshots/windows.png" type="image/png" />
+  <source src="/docs/screenshots/windows.webm" type="image/webm" />
+  <img src="/docs/screenshots/windows.png" alt="Windows 11 desktop screenshot" loading="lazy" />
 </picture>
 
 Windows 11 is a proprietary operating system developed by Microsoft and is the successor to Windows 10. Here are some of the unique aspects of Windows 11 and why you might want to use it:

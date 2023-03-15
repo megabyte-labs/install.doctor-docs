@@ -6,6 +6,7 @@ module.exports = {
       collapsed: false,
       items: [
         'index',
+        'features',
         'main/getting-started/overview',
         'main/getting-started/requirements',
         'main/getting-started/choosing-os',
