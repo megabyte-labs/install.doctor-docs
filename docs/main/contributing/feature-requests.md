@@ -4,6 +4,7 @@ description: Read about the different ways you can submit feature requests in th
 sidebar_label: Feature Requests
 slug: /contributing/feature-requests
 ---
+
 Feature requests are more than welcome. In fact, they are one way of contributing to this project. With your feedback, the success of this project is more likely. If you would like to request a feature, you can file an issue on GitHub or GitLab. If you decide to request a feature, it is more likely to be implented by our team and community if you create a well-thought request with as much of the nitty-gritty as possible. In other words, include as much detail as possible.
 
 ## Leveraging the Community
@@ -16,7 +17,7 @@ There are no strict guidelines for submitting a feature request. Any feature req
 
 ## Feature Requests on GitHub
 
-As with all the projects in the [Megabyte Labs eco-system], you can create a feature request using an issue template specifically designed for formatting feature requests. Just select the, "Feature Request," template when creating a GitHub issue. You can [open a feature request for Install Doctor on GitHub using this link](https://github.com/megabyte-labs/install.doctor/issues/new?assignees=&labels=question&template=FeatureRequest.yml).
+As with all the projects in the [Megabyte Labs eco-system](https://gitlab.com/megabyte-labs), you can create a feature request using an issue template specifically designed for formatting feature requests. Just select the, "Feature Request," template when creating a GitHub issue. You can [open a feature request for Install Doctor on GitHub using this link](https://github.com/megabyte-labs/install.doctor/issues/new?assignees=&labels=question&template=FeatureRequest.yml).
 
 <video autoplay loop muted playsinline>
   <source src="/video/github-feature-request.mp4" type="video/mp4" />

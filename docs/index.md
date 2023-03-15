@@ -39,4 +39,4 @@ Many packages have setup that is required after installing. For instance, [Tails
 
 With so many pieces of great, free, unique software, there is really only one way of integrating these technologies into your stack and that is with Install Doctor. Instead of worrying about configuring software each time you wipe and restore a device, you can define your user-specific credentials in an encrypted store within your Install Doctor configuration and then forget about it.
 
-There are so many features that Install Doctor adds the capability of integrating into your dream setup. Read about the [features that Install Doctor adds](/docs/features).
+There are so many features that Install Doctor adds the capability of integrating into your dream setup. Read about the [features that Install Doctor adds](/features).

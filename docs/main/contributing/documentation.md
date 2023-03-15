@@ -4,6 +4,7 @@ description: Find out how the documentation system works for both the markdown f
 sidebar_label: Documentation
 slug: /contributing/documentation
 ---
+
 Documentation is an important part of the process of developing software and tools. We want as many people as possible to be able to leverage our open-source work so all the insider know-how should be documented in both the repository and on the repository's corresponding documentation website.
 
 ## In-Repository Documentation
