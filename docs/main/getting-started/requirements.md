@@ -1,6 +1,6 @@
 ---
 title: Environment Requirements
-description: Requirements necessary to provision an environment with Install Doctor
+description: Learn how to install bash and curl on Linux machines which are environment requirements for running the Install Doctor quick start one-liner script.
 sidebar_label: Requirements
 slug: /getting-started/requirements
 ---
@@ -10,25 +10,25 @@ Install Doctor has a minimal set of requirements since it is, by nature, a batte
 
 On Linux, you need `bash` and `curl` installed. These are required since they are utilized by the one-line kickstarter script:
 
-```
+```shell
 bash <(curl -sSL https://install.doctor/start)
 ```
 
 ### Arch Linux
 
-```
+```shell
 pacman -Syu bash curl
 ```
 
 ### CentOS / Fedora
 
-```
+```shell
 sudo dnf install -y bash curl
 ```
 
 ### Debian / Ubuntu
 
-```
+```shell
 sudo apt-get install -y bash curl
 ```
 
@@ -40,7 +40,7 @@ macOS has no special requirements.
 
 To provision Qubes, it is important that you begin the provisioning process from a `dom0` terminal session if you want to utilize the one-line kickstarter script:
 
-```
+```shell
 qvm-run --pass-io sys-firewall "curl -sSL https://install.doctor/qubes" > ~/setup.sh && bash ~/setup.sh
 ```
 

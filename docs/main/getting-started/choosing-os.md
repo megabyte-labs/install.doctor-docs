@@ -1,6 +1,6 @@
 ---
 title: Choosing an Operating System
-description: Beginner guide for choosing an operating system to start with
+description: Browse through bullet points that detail the strengths and weaknesses of the different operating systems that Install Doctor supports. If you are unsure, use this page to help you choose which operating system to start with when using Install Doctor.
 sidebar_label: Choosing an OS
 slug: /getting-started/choosing-os
 ---
@@ -8,6 +8,12 @@ slug: /getting-started/choosing-os
 Install Doctor is regularly tested on the x86-64 variants of Arch Linux, CentOS, Debian, Fedora, macOS, Qubes, Ubuntu, and Windows. If you are planning on using or already using Install Doctor, you might re-think what operating system you want to use. Qubes is perhaps the most interesting operating system to choose but there is a learning curve involved. To help you in your journey, information about what makes each supported operating system unique and why you would want to use it is provided below.
 
 ## Arch Linux
+
+<picture>
+  <source src="/screenshots/archlinux.png" type="image/png" />
+  <source src="/screenshots/archlinux.webm" type="image/webm" />
+  <img src="/screenshots/archlinux.png" alt="Archlinux desktop screenshot" loading="eager" />
+</picture>
 
 Arch Linux is a lightweight and highly customizable Linux distribution that follows the KISS (Keep It Simple, Stupid) philosophy. One of the unique aspects of Arch Linux is its rolling-release model, which means that instead of releasing major versions with new features and updates, the operating system is continuously updated with the latest software and patches.
 
@@ -23,6 +29,12 @@ Overall, Arch Linux is an excellent choice for advanced users who value customiz
 
 ## CentOS
 
+<picture>
+  <source src="/screenshots/centos.png" type="image/png" />
+  <source src="/screenshots/centos.webm" type="image/webm" />
+  <img src="/screenshots/centos.png" alt="CentOS desktop screenshot" loading="lazy" />
+</picture>
+
 CentOS is a free and open-source Linux distribution that is based on the source code of Red Hat Enterprise Linux (RHEL). Here are some of the unique aspects of CentOS and why you might want to use it:
 
 1. **Stability**: CentOS is known for its stability and reliability, making it an excellent choice for servers and other mission-critical systems where downtime is not acceptable. It is based on the same codebase as RHEL, which is known for its enterprise-grade stability.
@@ -35,6 +47,12 @@ Overall, CentOS is an excellent choice for those who value stability, security, 
 
 ## Debian
 
+<picture>
+  <source src="/screenshots/debian.png" type="image/png" />
+  <source src="/screenshots/debian.webm" type="image/webm" />
+  <img src="/screenshots/debian.png" alt="Debian desktop screenshot" loading="lazy" />
+</picture>
+
 Debian is a free and open-source Linux distribution that is known for its stability, security, and extensive package library. Here are some of the unique aspects of Debian and why you might want to use it:
 
 1. **Stability**: Debian is designed to be highly stable and reliable, making it an excellent choice for servers, mission-critical systems, and other applications where downtime is not acceptable.
@@ -46,6 +64,13 @@ Debian is a free and open-source Linux distribution that is known for its stabil
 Overall, Debian is an excellent choice for those who value stability, security, and an extensive package library. It is particularly well-suited for servers and other mission-critical systems where reliability and security are essential. Additionally, Debian's focus on free and open-source software makes it a popular choice among users who are committed to the principles of open-source software.
 
 ## Fedora
+
+<picture>
+  <source src="/screenshots/fedora.png" type="image/png" />
+  <source src="/screenshots/fedora.webm" type="image/webm" />
+  <img src="/screenshots/fedora.png" alt="Fedora desktop screenshot" loading="lazy" />
+</picture>
+
 Fedora is a free and open-source Linux distribution that is known for its cutting-edge features and emphasis on innovation. Here are some of the unique aspects of Fedora and why you might want to use it:
 
 1. **Cutting-edge features**: Fedora is known for its focus on cutting-edge technologies and features. It is often one of the first distributions to incorporate new features and technologies, making it a popular choice for early adopters and developers.
@@ -57,6 +82,12 @@ Fedora is a free and open-source Linux distribution that is known for its cuttin
 Overall, Fedora is an excellent choice for those who value cutting-edge features, community-driven development, customizability, and developer-friendly tools. It is particularly well-suited for developers and early adopters who want to stay up-to-date with the latest technologies and features. Additionally, Fedora's focus on free and open-source software makes it a popular choice among users who are committed to the principles of open-source software.
 
 ## macOS
+
+<picture>
+  <source src="/screenshots/macos.png" type="image/png" />
+  <source src="/screenshots/macos.webm" type="image/webm" />
+  <img src="/screenshots/macos.png" alt="macOS desktop screenshot" loading="lazy" />
+</picture>
 
 macOS is a proprietary operating system developed by Apple for its Macintosh line of computers. Here are some of the unique aspects of macOS and why you might want to use it:
 
@@ -70,6 +101,12 @@ Overall, macOS is an excellent choice for those who value integration with the A
 
 ## Qubes
 
+<picture>
+  <source src="/screenshots/qubes.png" type="image/png" />
+  <source src="/screenshots/qubes.webm" type="image/webm" />
+  <img src="/screenshots/qubes.png" alt="Qubes desktop screenshot" loading="lazy" />
+</picture>
+
 Qubes OS is a free and open-source operating system that is designed to provide strong security and isolation between applications and activities. Here are some of the unique aspects of Qubes OS and why you might want to use it:
 
 1. **Security**: Qubes OS is designed to provide strong security and isolation between applications and activities. It uses a unique architecture that runs each application in its own virtual machine, providing isolation and preventing malware from spreading between applications.
@@ -82,6 +119,12 @@ Overall, Qubes OS is an excellent choice for those who value strong security, pr
 
 ## Ubuntu
 
+<picture>
+  <source src="/screenshots/ubuntu.png" type="image/png" />
+  <source src="/screenshots/ubuntu.webm" type="image/webm" />
+  <img src="/screenshots/ubuntu.png" alt="Ubuntu desktop screenshot" loading="lazy" />
+</picture>
+
 Ubuntu is a popular and user-friendly Linux distribution that is known for its ease of use, extensive software library, and community support. Here are some of the unique aspects of Ubuntu and why you might want to use it:
 
 1. **User-friendly**: Ubuntu has a simple and intuitive interface that makes it easy for beginners to use. It is also designed to be compatible with a wide range of hardware, which makes it a popular choice for desktops and laptops.
@@ -93,6 +136,12 @@ Ubuntu is a popular and user-friendly Linux distribution that is known for its e
 Overall, Ubuntu is an excellent choice for beginners and advanced users who value ease of use, a vast software library, community support, security, and customizability. It is also a popular choice for businesses and organizations that require a secure and reliable operating system.
 
 ## Windows
+
+<picture>
+  <source src="/screenshots/windows.png" type="image/png" />
+  <source src="/screenshots/windows.webm" type="image/webm" />
+  <img src="/screenshots/windows.png" alt="Windows 11 desktop screenshot" loading="lazy" />
+</picture>
 
 Windows 11 is a proprietary operating system developed by Microsoft and is the successor to Windows 10. Here are some of the unique aspects of Windows 11 and why you might want to use it:
 

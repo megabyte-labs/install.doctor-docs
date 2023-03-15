@@ -1,22 +1,22 @@
 ---
 title: Install Doctor Documentation
-description: Overview of Install Doctor, the multi-OS provisioning framework that can setup workstations and servers
+description: Immerse yourself with everything you need to know about Install Doctor, the easy, customizable multi-OS provisioning framework that can setup workstations and servers with a simple one-liner.
 slug: /
 sidebar_label: Overview
-hide_table_of_contents: true
+top_banner: /docs/img/featured/install-doctor.png
+top_banner_alt: Install Doctor banner
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
-<img
-  alt="Free, Simple, Easy Software Installations"
-  src={require('/img/og.png').default}
-  loading="eager"
-/>
-
-## What is Install Doctor?
-
 Install Doctor is a set of scripts, software, and configurations that can setup your PCs quickly. It allows you to define software and plugins in YAML / JSON in such a way that as little work as possible is involved when adding a new package to your stack. It is a [Chezmoi](https://www.chezmoi.io/) based project so all the features of Chezmoi are also included.
+
+## What Does Install Doctor Do?
+
+Install Doctor makes it as easy as possible to:
+
+1. Define the state of your devices as code
+2. Launch the provisioning process with a one-liner (and, optionally, a password)
+3. Make modifications like adding a new piece of software with as little code as possible
+4. Re-use settings across different operating systems
 
 ## Multi-OS Provisioning
 

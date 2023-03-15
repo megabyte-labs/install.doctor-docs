@@ -14,25 +14,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Features',
-      collapsed: false,
-      items: [
-        'main/features/index',
-        'main/features/installer',
-        'main/features/security',
-        'main/features/network',
-        'main/features/virtualization',
-        'main/features/web-apps',
-        'main/features/sso',
-        {
-          type: 'link',
-          label: 'CLI',
-          href: '/docs/cli',
-        },
-      ],
-    },
-    {
-      type: 'category',
       label: 'Customization',
       collapsed: false,
       items: [
@@ -40,17 +21,20 @@ module.exports = {
         'main/customization/software',
         'main/customization/scripting',
         'main/customization/secrets',
+        'main/customization/web-apps',
+        'main/customization/sso'
       ],
     },
     {
       type: 'category',
-      label: 'Qubes',
+      label: 'Advanced',
       collapsed: false,
       items: [
-        'main/qubes/index',
-        'main/qubes/features',
-        'main/qubes/customization',
-        'main/qubes/gui-vm'
+        'main/advanced/installer',
+        'main/advanced/security',
+        'main/advanced/network',
+        'main/advanced/virtualization',
+        'main/advanced/qubes'
       ],
     },
     {
