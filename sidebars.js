@@ -44,6 +44,7 @@ module.exports = {
       collapsed: true,
       items: [
         'main/contributing/index',
+        'main/contributing/code-quality',
         'main/contributing/pull-requests',
         'main/contributing/feature-requests',
         'main/contributing/documentation',
