@@ -68,7 +68,9 @@ softwarePlugins:
 
 After reading our [Customization](/customization) documentation, you will begin to realize how easy it is to define software package installations across many different operating systems. This can be done with very little code by editting the YAML definitions either in the `software.yml` file (if you decide to open a pull request so that the definitions can be made available to everyone) or in the `software-custom.yml` file that can contain defintions that you do not wish to contribute.
 
-There are a handful of ways to customize the defintions. You can make definitions that will only use a certain method on a specific operating system, add pre-install / post-install logic, and more. The particulars are outlined below as well as in comments at the top of the `software.yml` file.
+There are a handful of ways to customize the defintions. You can make definitions that will only use a certain method on a specific operating system, add pre-install / post-install logic, and more. The particulars are outlined below as well as in comments at the top of the `software.yml` file. Similarly, the following video walks through the process of creating new software definitions in either `software.yml` or `software-custom.yml`:
+
+<iframe width="100%" height="430" src="https://www.youtube-nocookie.com/embed/UHpoYumybeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Package Managers
 
