@@ -27,7 +27,7 @@ All of the projects in the Megabyte Labs eco-system include a folder named `.dev
 
 Maintaining a superior, easy-to-understand, and easy-to-get-started-with codebase requires following design patterns. Before opening any pull requests, browse through a good amount of the code that parallels the feature or fix you plan on pushing to our master branch. To do so, follow these steps:
 
-1. Read the [Install Doctor documentation](/docs), which provides strategies that impact code design patterns.
+1. Read the [Install Doctor documentation](/), which provides strategies that impact code design patterns.
 2. Read the [Megabyte Labs eco-system documentation](https://megabyte.space/docs), which outlines additional details and references that will not only help you contribute better code to Install Doctor but will also help you become a better developer since it references many leading industry standards.
 3. rowse through the Install Doctor codebase. For instance, if you are contributing a new `.local/bin/` script file, you should note that all of our other script files start with the `#!/usr/bin/env bash` shebang, as this is the ideal way of referencing the Bash program. There are many other subtleties contained within the codebase. Ideally, we want the codebase to look as if it were written by one Principal-level developer.
 
