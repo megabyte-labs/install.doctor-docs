@@ -156,6 +156,12 @@ module.exports = {
           if (locale != 'en') {
             return 'https://crowdin.com/project/install-doctor-docs';
           }
+          if ((match = docPath.match(/scripts\/profile\/(.*)\.md/)) != null) {
+            return `https://github.com/megabyte-labs/install.doctor/edit/master/dot_config/shell/${match[1]}`;
+          }
+          if ((match = docPath.match(/scripts\/utility\/(.*)\.md/)) != null) {
+            return `https://github.com/megabyte-labs/install.doctor/edit/master/scripts/${match[1]}`;
+          }
           if ((match = docPath.match(/scripts\/.*\/(.*)\.md/)) != null) {
             return `https://github.com/megabyte-labs/install.doctor/edit/master/home/.chezmoiscripts/universal/${match[1]}`;
           }

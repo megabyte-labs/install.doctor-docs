@@ -114,7 +114,7 @@ export default function DocItem(props: Props): JSX.Element {
                 */}
                 {shouldAddTitle && <MainHeading>{title}</MainHeading>}
                 {githubLocation && repoLocation && (
-                  <p><strong>View on GitHub:</strong> <a href={githubLocation} rel="noopener" target="_blank"><code>{repoLocation}</code></a></p>
+                  <p><strong>View / Edit on GitHub:</strong> <a href={githubLocation} rel="noopener" target="_blank"><code>{repoLocation}</code></a></p>
                 )}
                 <DocContent />
               </div>
