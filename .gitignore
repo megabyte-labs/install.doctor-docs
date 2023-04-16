@@ -21,3 +21,11 @@ yarn-debug.log*
 yarn-error.log*
 # Local Netlify folder
 .netlify
+
+install.doctor/
+docs/scripts/after/
+docs/scripts/before/
+docs/scripts/during/
+docs/cli/commands/
+docs/scripts/utility/
+docs/scripts/profile/

@@ -35,6 +35,8 @@ export default function DocItem(props: Props): JSX.Element {
     top_banner: topBanner,
     top_banner_alt: topBannerAlt,
     //#region ------- CUSTOM CODE --------
+    githubLocation,
+    repoLocation,
     demoUrl,
     demoSourceUrl,
     //#endregion
@@ -111,7 +113,9 @@ export default function DocItem(props: Props): JSX.Element {
                 See https://github.com/facebook/docusaurus/pull/4882#issuecomment-853021120
                 */}
                 {shouldAddTitle && <MainHeading>{title}</MainHeading>}
-
+                {githubLocation && repoLocation && (
+                  <p><strong>View on GitHub:</strong> <a href={githubLocation} rel="noopener" target="_blank"><code>{repoLocation}</code></a></p>
+                )}
                 <DocContent />
               </div>
 

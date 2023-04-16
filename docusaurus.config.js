@@ -28,7 +28,7 @@ module.exports = {
       defaultMode: 'light',
     },
     navbar: {
-      hideOnScroll: true,
+      hideOnScroll: false,
       logo: {
         alt: 'Install Doctor Logo',
         src: `/logos/install-doctor-text-docs-light.svg`,
@@ -47,8 +47,8 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'software',
-          label: 'Features',
+          docId: 'scripts',
+          label: 'Scripts',
           position: 'left',
         },
         {
@@ -156,17 +156,11 @@ module.exports = {
           if (locale != 'en') {
             return 'https://crowdin.com/project/install-doctor-docs';
           }
-          if ((match = docPath.match(/apis\/(.*)\.md/)) != null) {
-            if (match[1] === 'cookies' || match[1] === 'http') {
-              return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/docs/apis/${match[1]}.md`;
-            }
-            return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/${match[1]}/README.md`;
+          if ((match = docPath.match(/scripts\/.*\/(.*)\.md/)) != null) {
+            return `https://github.com/megabyte-labs/install.doctor/edit/master/home/.chezmoiscripts/universal/${match[1]}`;
           }
           if ((match = docPath.match(/cli\/commands\/(.*)\.md/)) != null) {
-            return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/docs/cli/commands/${match[1].replace(
-              '-',
-              '/'
-            )}.md`;
+            return `https://github.com/megabyte-labs/install.doctor/edit/master/home/dot_config/task/Taskfile.yml`;
           }
           if ((match = docPath.match(/native\/(.*)\.md/)) != null) {
             return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/src/@awesome-cordova-plugins/plugins/${match[1]}/index.ts`;
