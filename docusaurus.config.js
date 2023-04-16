@@ -157,7 +157,7 @@ module.exports = {
             return 'https://crowdin.com/project/install-doctor-docs';
           }
           if ((match = docPath.match(/scripts\/profile\/(.*)\.md/)) != null) {
-            return `https://github.com/megabyte-labs/install.doctor/edit/master/dot_config/shell/${match[1]}`;
+            return `https://github.com/megabyte-labs/install.doctor/edit/master/home/dot_config/shell/${match[1]}`;
           }
           if ((match = docPath.match(/scripts\/utility\/(.*)\.md/)) != null) {
             return `https://github.com/megabyte-labs/install.doctor/edit/master/scripts/${match[1]}`;
@@ -167,9 +167,6 @@ module.exports = {
           }
           if ((match = docPath.match(/cli\/commands\/(.*)\.md/)) != null) {
             return `https://github.com/megabyte-labs/install.doctor/edit/master/home/dot_config/task/Taskfile.yml`;
-          }
-          if ((match = docPath.match(/native\/(.*)\.md/)) != null) {
-            return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/src/@awesome-cordova-plugins/plugins/${match[1]}/index.ts`;
           }
           return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/${versionDocsDirPath}/${docPath}`;
         },
