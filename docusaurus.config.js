@@ -128,9 +128,9 @@ module.exports = {
       additionalLanguages: ['shell-session', 'http'],
     },
     algolia: {
-      appId: 'S9NORH1KTE',
-      apiKey: 'e14004b94a1f75b3bb71fc63f070466c',
-      indexName: 'installdoc',
+      appId: 'KFVMJ7I0DW',
+      apiKey: '15f17ad0bf94da92836732a7ceda2ec4',
+      indexName: 'installtor',
       contextualSearch: true,
     },
   },
