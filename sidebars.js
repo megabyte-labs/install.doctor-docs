@@ -6,7 +6,7 @@ module.exports = {
       collapsed: false,
       items: [
         'index',
-        'main/getting-started/overview',
+        'main/getting-started/getting-started',
         'main/getting-started/requirements',
         'main/getting-started/choosing-os',
         'main/getting-started/faqs'
@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'Features',
       collapsed: false,
-      items: ['features', 'integrations/cloudflare', 'integrations/kubesphere', 'integrations/tailscale', 'integrations/netdata', 'integrations/gitsync'],
+      items: ['main/features', 'integrations/cloudflare', 'integrations/kubesphere', 'integrations/tailscale', 'integrations/netdata', 'integrations/gitsync'],
     },
     {
       type: 'category',
@@ -73,7 +73,7 @@ module.exports = {
       type: 'category',
       label: 'Overview',
       collapsed: false,
-      items: ['scripts', 'utility', 'profile', 'before', 'after'],
+      items: ['scripts', 'scripts/utility', 'scripts/profile', 'scripts/before', 'scripts/after'],
     },
     {
       type: 'category',
