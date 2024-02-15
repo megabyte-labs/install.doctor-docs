@@ -6,29 +6,37 @@ module.exports = {
       collapsed: false,
       items: [
         'index',
-        'main/getting-started/getting-started',
-        'main/getting-started/requirements',
-        'main/getting-started/choosing-os',
-        'main/getting-started/faqs'
+        'getting-started/getting-started',
+        'getting-started/requirements',
+        'getting-started/choosing-os',
+        'getting-started/faqs'
       ],
     },
     {
       type: 'category',
       label: 'Features',
       collapsed: false,
-      items: ['main/features', 'integrations/cloudflare', 'integrations/kubesphere', 'integrations/tailscale', 'integrations/netdata', 'integrations/gitsync'],
+      items: [
+        'features/index',
+        'features/integrations',
+        'features/cloudflare',
+        'features/kubesphere',
+        'features/tailscale',
+        'features/netdata',
+        'features/gitsync'
+      ],
     },
     {
       type: 'category',
       label: 'Customization',
       collapsed: false,
       items: [
-        'main/customization/index',
-        'main/customization/software',
-        'main/customization/scripting',
-        'main/customization/secrets',
-        'main/customization/web-apps',
-        'main/customization/sso'
+        'customization/index',
+        'customization/software',
+        'customization/scripts',
+        'customization/secrets',
+        'customization/web-apps',
+        'customization/sso'
       ],
     },
     {
@@ -36,11 +44,11 @@ module.exports = {
       label: 'Advanced',
       collapsed: false,
       items: [
-        'main/advanced/installer',
-        'main/advanced/security',
-        'main/advanced/network',
-        'main/advanced/virtualization',
-        'main/advanced/qubes'
+        'advanced/installer',
+        'advanced/security',
+        'advanced/network',
+        'advanced/virtualization',
+        'advanced/qubes'
       ],
     },
     {
@@ -48,9 +56,9 @@ module.exports = {
       label: 'Enterprise',
       collapsed: true,
       items: [
-        'main/enterprise/index',
-        'main/enterprise/immutable',
-        'main/enterprise/portal'
+        'enterprise/index',
+        'enterprise/immutable',
+        'enterprise/portal'
       ]
     },
     {
@@ -58,12 +66,13 @@ module.exports = {
       label: 'Contributing',
       collapsed: true,
       items: [
-        'main/contributing/index',
-        'main/contributing/code-quality',
-        'main/contributing/pull-requests',
-        'main/contributing/feature-requests',
-        'main/contributing/documentation',
-        'main/contributing/community-guidelines'
+        'contributing/index',
+        'contributing/code-of-conduct',
+        'contributing/code-quality',
+        'contributing/pull-requests',
+        'contributing/feature-requests',
+        'contributing/documentation',
+        'contributing/community-guidelines'
       ],
     },
   ],
@@ -73,7 +82,13 @@ module.exports = {
       type: 'category',
       label: 'Overview',
       collapsed: false,
-      items: ['scripts', 'scripts/utility', 'scripts/profile', 'scripts/before', 'scripts/after'],
+      items: [
+        'scripts',
+        'scripts/overview/utility',
+        'scripts/overview/profile',
+        'scripts/overview/before',
+        'scripts/overview/after'
+      ],
     },
     {
       type: 'category',
@@ -125,7 +140,11 @@ module.exports = {
       type: 'category',
       label: 'CLI Documentation',
       collapsed: false,
-      items: ['cli/index', 'cli/taskfiles'],
+      items: [
+        'cli/index',
+        'cli/taskfiles',
+        'cli/variables'
+      ],
     },
     {
       type: 'category',
@@ -139,4 +158,4 @@ module.exports = {
       ],
     }
   ],
-};
+}

@@ -9,7 +9,7 @@
     "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
-    "generate-plugin-docs": "bash scripts/scripts.sh && bash scripts/tasks.sh",
+    "generate-plugin-docs": "bash scripts/markdown.sh",
     "serve": "docusaurus serve",
     "prestart": "npm run generate-plugin-docs",
     "start": "docusaurus start",
