@@ -31,6 +31,11 @@ makeScriptFolders() {
   done
 }
 
+# @description Copy regular markdown files from install.doctor repository `docs/` folder
+copyMarkdown() {
+  rsync -a --exclude="CODEOWNERS" --exclude="CODE_OF_CONDUCT.md" --exclude="ECOSYSTEM.md" --exclude="CONTRIBUTING.md" --exclude="TODO.md" --exclude="INSPIRATION.md" --exclude="logo-full.png" install.doctor/docs/ docs
+}
+
 # @description Populates the markdown files for scripts in install.doctor/home by using shdoc
 populateHomeScripts() {
   find "./install.doctor/home" -type f -name "*.sh.tmpl" | while read SCRIPT; do
@@ -138,6 +143,7 @@ cloneInstallDoctor &
 makeScriptFolders &
 wait
 logg info 'Finished preliminary script documentation extraction tasks'
+copyMarkdown &
 populateHomeScripts &
 populateDanglingScripts &
 populateTaskfileScripts &

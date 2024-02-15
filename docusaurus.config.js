@@ -188,12 +188,6 @@ module.exports = {
       return {
         name: 'ionic-docs-ads',
         async loadContent() {
-          const repoName = 'ionicframeworkcom';
-          const endpoint = prismic.getEndpoint(repoName);
-          const client = prismic.createClient(endpoint, {
-            fetch,
-          });
-
           if (fs.existsSync('./local/docsad.prismic.json')) {
             const prismic = fs.readFileSync('./local/docsad.prismic.json')
             return JSON.parse(prismic.toString())

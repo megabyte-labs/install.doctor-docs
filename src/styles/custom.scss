@@ -336,7 +336,7 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
-
+  scroll-behavior: smooth;
   scroll-padding-top: calc(var(--ifm-navbar-height) + 16px);
 }
 
