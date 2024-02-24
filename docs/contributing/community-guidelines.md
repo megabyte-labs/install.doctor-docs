@@ -2,7 +2,7 @@
 title: Code of Conduct
 description: The official community guidelines / Code of Conduct, a document detailing the rules that need to be followed by participants in the Install Doctor project.
 sidebar_label: Code of Conduct
-slug: /contributing/code-of-conduct
+slug: /contributing/community-guidelines
 ---
 #### A set of guidelines that all all members, contributors, and leaders should follow
 
