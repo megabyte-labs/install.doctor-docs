@@ -131,7 +131,7 @@ module.exports = {
       appId: 'KFVMJ7I0DW',
       apiKey: '15f17ad0bf94da92836732a7ceda2ec4',
       indexName: 'installtor',
-      contextualSearch: true,
+      contextualSearch: true
     },
   },
   plugins: [
@@ -168,7 +168,7 @@ module.exports = {
           if ((match = docPath.match(/cli\/commands\/(.*)\.md/)) != null) {
             return `https://github.com/megabyte-labs/install.doctor/edit/master/home/dot_config/task/Taskfile.yml`;
           }
-          return `https://github.com/megabyte-labs/install.doctor-docs/edit/master/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/megabyte-labs/install.doctor/edit/master/${versionDocsDirPath}/${docPath}`;
         },
         exclude: ['README.md'],
         lastVersion: 'current',
